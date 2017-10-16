@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Class="DataClasses1DataContext" Serialization="Unidirectional" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\Nguyen Tuan\Downloads\Employee-RESTful-CRUD-tieplvd\EmployeeDbFix.mdf&quot;;Integrated Security=True;Connect Timeout=30" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="EmployeeDbFixConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="" Member="Class1s">
+    <Type Name="Class1">
+      <Column Member="ID" Type="System.Int32" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="" Member="Name" Type="System.String" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="" Member="Address" Type="System.String" CanBeNull="false" />
+      <Column Name="" Member="Age" Type="System.Int32" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

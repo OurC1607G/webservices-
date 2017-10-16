@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9c1db216-b070-43a2-a303-9e4c223f663f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51110/ProductRESTServices.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductRESTServices.wsdl" MetadataType="Wsdl" ID="bcdee6cf-2254-4cf4-9fe2-edea41bb5349" SourceId="1" SourceUrl="http://localhost:51110/ProductRESTServices.svc?wsdl" />
+    <MetadataFile FileName="ProductRESTServices.xsd" MetadataType="Schema" ID="99f42cde-a6a9-4879-9df0-f4bd039d64a6" SourceId="1" SourceUrl="http://localhost:51110/ProductRESTServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductRESTServices1.xsd" MetadataType="Schema" ID="bf04603d-e9d3-4cc8-afd7-7977e9abc4aa" SourceId="1" SourceUrl="http://localhost:51110/ProductRESTServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProductRESTServices2.xsd" MetadataType="Schema" ID="03d3aa1a-a7d5-4b6d-946b-f66a6af5a783" SourceId="1" SourceUrl="http://localhost:51110/ProductRESTServices.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
